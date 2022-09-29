@@ -1,0 +1,22 @@
+nome tabella: auto usate
+
+colonne:
+
+
+id                          BIGINT              PK: AUTO_INCREMENT, UNIQUE, NN
+
+targa                       VARCHAR(15)         NN 
+
+modello                     VARCHAR(30)         NN     
+
+marca                       VARCHAR(30)         NN                      
+
+anno                        YEAR                NULLABLE                         
+
+km percorsi                 INT                 NN
+
+revisione                   TEXT                NULLABLE
+
+prezzo vendita              FLOAT(8,6)          NN
+
+stato auto                  TEXT                NULL        
