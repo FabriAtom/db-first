@@ -13,10 +13,12 @@ marca                       VARCHAR(30)         NN
 
 anno                        YEAR                NULLABLE                         
 
-km percorsi                 INT                 NN
+km_percorsi                 FLOAT(7,1)          NN
 
 revisione                   TEXT                NULLABLE
 
-prezzo vendita              FLOAT(8,6)          NN
+prezzo_vendita              FLOAT(8,2)          NN
 
-stato auto                  TEXT                NULL        
+condizioni                  VARCHAR(100)        NN      
+
+descrizione                 TEXT                NULLABLE             
